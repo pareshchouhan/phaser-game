@@ -56,12 +56,13 @@ class MainMenu extends Phaser.Scene {
 
         playButton.on('selected', () => {
             console.log('selected play');
+            this.scene.start('TestScene');
         });
         settingsButton.on('selected', () => {
-            console.log('selected play');
+            console.log('selected sttings');
         });
         creditsButton.on('selected', () => {
-            console.log('selected play');
+            console.log('selected credits');
         });
         playButton.on('pointerover', () => {
             this.selectButton(0);

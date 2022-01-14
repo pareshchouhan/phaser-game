@@ -12,7 +12,7 @@ const config:GameConfig = {
     backgroundColor: "#EDEEC9",
     scene: [
         MainMenu,
-        // TestScene
+        TestScene
     ]
 };
 
