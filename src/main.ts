@@ -1,6 +1,7 @@
 import 'phaser';
 
 import TestScene from './scenes/PlayScene';
+import MainMenu from './scenes/MainMenu';
 
 const config:GameConfig = {
     type: Phaser.AUTO,
@@ -10,7 +11,8 @@ const config:GameConfig = {
     resolution: 1, 
     backgroundColor: "#EDEEC9",
     scene: [
-      TestScene
+        MainMenu,
+        // TestScene
     ]
 };
 
